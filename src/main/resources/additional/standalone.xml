@@ -135,7 +135,6 @@
         <subsystem xmlns="urn:jboss:domain:bean-validation:1.0"/>
         <subsystem xmlns="urn:jboss:domain:datasources:4.0">
             <datasources>
-                <!--
                 <datasource jndi-name="java:jboss/datasources/ExampleDS" pool-name="ExampleDS" enabled="true" use-java-context="true">
                     <connection-url>jdbc:h2:mem:test;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE</connection-url>
                     <driver>h2</driver>
@@ -144,7 +143,6 @@
                         <password>sa</password>
                     </security>
                 </datasource>
-                -->
                 <datasource jta="true" jndi-name="java:jboss/datasources/open_channel_proto" pool-name="open_channel_proto" enabled="true" use-java-context="true" use-ccm="true">
                     <connection-url>jdbc:mysql://localhost:3306/open_channel_proto</connection-url>
                     <driver>mysql</driver>

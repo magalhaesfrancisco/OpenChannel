@@ -10,8 +10,8 @@
     <!-- Datasource information -->
     <jta-data-source>java:jboss/datasources/open_channel_proto</jta-data-source>
 
-    <class>br.gov.pf.project.IvestigationModel</class>
-    <class>br.gov.pf.project.LocaleModel</class>
+    <class>br.gov.pf.project.model.InvestigationModel</class>
+    <class>br.gov.pf.project.model.LocaleModel</class>
 
     <properties>
       <property name="hibernate.hbm2ddl.auto" value="update" />
