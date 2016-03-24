@@ -21,7 +21,7 @@
 	<!-- dispatcher-servlet.xml - Handles web request/responses based on URL patterns -->
 
 	<!-- Spring components (@Controller, @Repository, @Service, @Component) -->
-	<context:component-scan base-package="br.gov.pf.projeto" />
+	<context:component-scan base-package="br.gov.pf.project" />
 
 	<!-- JSON response -->
 	<mvc:annotation-driven />
